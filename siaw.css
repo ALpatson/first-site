@@ -1,0 +1,150 @@
+html {
+  font: 62.5%;
+}
+p {
+  color: green;
+}
+
+h1 {
+  background-image: url(images/fun.jpg);
+  background-position: center;
+  background-size: cover;
+  font-size: 5rem;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h2 {
+  color: blue;
+}
+
+h1,
+h2 {
+  border: 0.1rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+strong {
+  color: red;
+}
+
+p.sea {
+  color: black;
+}
+
+p.me {
+  color: black;
+}
+
+body {
+  background-color: azure;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+  font-style: italic;
+}
+
+.sea {
+  background-color: azure;
+  position: relative;
+  top: 20px;
+  border-color: black;
+  z-index: -1;
+  border-style: solid;
+
+  border: transparent;
+}
+
+p.me {
+  background-color: azure;
+  padding: 0 0 1.5rem 0;
+  border-color: black;
+  border-width: 0.2rem;
+  border-style: solid;
+  border: transparent;
+}
+
+.god {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section2 {
+  padding-top: 3.125rem;
+  margin: 0 0 0 3.125rem;
+}
+
+.je {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4.375rem;
+  padding: 1.5rem;
+  border-color: black;
+  border-width: 0.2rem;
+  border-style: solid;
+  border: transparent;
+  float: right;
+  height: 22.875rem;
+  width: "400";
+}
+.jae {
+  height: 25rem;
+  float: left;
+  width: 31.25rem;
+}
+.section3 {
+  position: relative;
+  left: 32.5rem;
+  padding: 0 0 0 1.25rem;
+  top: 3.125rem;
+  width: 18.75rem;
+}
+.ce {
+  position: relative;
+  left: 2.6875rem;
+  padding: 0 0 0 1.25rem;
+  top: 4.375rem;
+  width: 90%;
+  border-color: black;
+
+  border-style: solid;
+
+  border: transparent;
+}
+
+.why {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5rem;
+  border-color: black;
+  border-width: 0.2rem;
+  border-style: solid;
+  border: transparent;
+  float: left;
+  height: 22.875rem;
+}
+
+.link a:hover {
+  color: #000000e2;
+  border-bottom: solid 0.1rem #00000075;
+  transition: all 0.4s;
+}
+.link a {
+  color: blue;
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+.link {
+  text-align: justify;
+  border-bottom: solid 0.1rem transparent;
+  position: relative;
+  margin-top: 8.1875rem;
+}
